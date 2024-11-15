@@ -14,6 +14,8 @@ Safety is a top priority when choosing a place to live or visit. While general c
 4. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
 5. The merged_output.csv file was renamed and used in further analyses.
 
+Alternatively, please feel free to access the data used for our tool here: ___
+
 ## MLM
 
 ## Dashboard
