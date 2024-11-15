@@ -6,6 +6,15 @@ CityScout is a tool designed to help users identify safe cities based on specifi
 
 Safety is a top priority when choosing a place to live or visit. While general crime statistics are widely available, they often fail to address specific demographic concerns. CityScout bridges this gap by providing tailored safety information based on user-selected criteria, such as crime rates against women, children, or tourists.
 
+## Data
+
+1. Clone the FBI NIBRS data hosted on Dolthub [here](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs). Please keep in mind that this is a 1.1TB database, so ensure you have sufficient storage space.
+2. Run the ___ script to get the necessary columns for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
+3. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
+4. The merged_output.csv file was renamed and used in further analyses.
+
+## MLM
+
 ## Dashboard
 
 Explore our interactive dashboard here: [CityScout Dashboard](https://public.tableau.com/app/profile/jessica.eggers/viz/Project11_17302249004010/Dashboard1)
