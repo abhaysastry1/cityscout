@@ -43,7 +43,7 @@ The project consists of two main components:
 
 ## Data Source
 
-The final dataset (5GB) used for analysis is available on Google Drive: [Merged Dataset Link](https://drive.google.com/file/d/1dG6gfcUVfhHINRHJG6t-paleBY4cDb-0/view)
+The final dataset (~2GB) used for analysis is available on Google Drive: [Merged Dataset Link](https://drive.google.com/file/d/1bwY2fyMjmfNOJpI-wdUImQXk9CvTFs9E/view)
 
 ## Development
 
