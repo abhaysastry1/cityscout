@@ -25,6 +25,7 @@ Explore our interactive dashboard here: [CityScout Dashboard](https://public.tab
 
 - Python
 - Pandas
+- PySpark
 - Google Cloud Platform (GCP)
 - Dolthub (for database management)
 - Tableau
