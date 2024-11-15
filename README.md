@@ -9,9 +9,11 @@ Safety is a top priority when choosing a place to live or visit. While general c
 ## Data
 
 1. Clone the FBI NIBRS data hosted on Dolthub [here](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs). Please keep in mind that this is a 1.1TB database, so ensure you have sufficient storage space.
-2. Run the ___ script to get the necessary columns for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
-3. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
-4. The merged_output.csv file was renamed and used in further analyses.
+  1. Intall Dolt by [building from source](https://docs.dolthub.com/introduction/installation/source).
+  2. Clone the repository using the command `dolt clone Liquidata/fbi-nibrs`.
+3. Run the ___ script to get the necessary columns for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
+4. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
+5. The merged_output.csv file was renamed and used in further analyses.
 
 ## MLM
 
