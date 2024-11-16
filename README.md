@@ -13,7 +13,7 @@ Explore our interactive dashboard here: [CityScout Dashboard](https://public.tab
 ### How to Use the Dashboard
 
 1. Open the CityScout link provided above.
-2. Select your demographic category of interest (e.g., women travelling solo, children, tourists).
+2. Select your demographic category of interest (e.g., women traveling solo, children, tourists).
 3. View the interactive choropleth map displaying a heat map representing the risk score for different states.
 4. Adjust the population filter using the sliding bar to refine your results.
 5. Explore the list of top 10 safe cities based on the calculated crime risk scores.
@@ -47,15 +47,15 @@ The final dataset (~2GB) used for analysis is available on Google Drive: [Merged
 
 ## Development
 
-Data processing operations were performed using Python's PySpark and Pandas on Google Cloud Platform to handle the large dataset size and computational requirements. The orignal dataset can be found here [Dataset Link](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs)
+Data processing operations were performed using Python's PySpark and Pandas on the Google Cloud Platform to handle the large dataset size and computational requirements. The original dataset can be found here [Dataset Link](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs)
 
-1.  Intall Dolt by [building from source](https://docs.dolthub.com/introduction/installation/source).
+1.  Install Dolt by [building from source](https://docs.dolthub.com/introduction/installation/source).
 2.  Clone the FBI NIBRS data repository hosted on Dolthub [here](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs) using the command `dolt clone Liquidata/fbi-nibrs`. Please keep in mind that this is a 1.1TB database, so ensure you have sufficient storage space.
 3. Run the ___ script to get the necessary columns for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
 4. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
 5. The merged_output.csv file was renamed and used in further analyses.
 
-Alternatively, please feel free to access the data used for our tool linked under Data Source.
+Alternatively, please feel free to access the data used for our tool, which is linked under Data Source.
 
 ## Machine Learning and Regression Analysis
 We employ Multiple Linear Regression (MLR) techniques to:
