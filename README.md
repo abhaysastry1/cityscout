@@ -8,7 +8,7 @@ Safety is a top priority when choosing a place to live or visit. While general c
 
 ## Dashboard
 
-Explore our interactive dashboard here: [CityScout Dashboard](https://public.tableau.com/app/profile/jessica.eggers/viz/Project11_17302249004010/Dashboard1)
+Explore our interactive dashboard here: [CityScout Dashboard](https://public.tableau.com/app/profile/sai.paresh.karyekar/viz/CityScout_17316885780750/Dashboard1#1)
 
 ### How to Use the Dashboard
 
