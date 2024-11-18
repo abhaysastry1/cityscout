@@ -36,7 +36,8 @@ The project consists of two main components:
 
 1. **Data Processing:**
    - `dolt_test.py`: Queries the database hosted on DoltHub
-   - `merge.py`: Merges various datasets extracted for each year or feature
+   - `data_merge_and_clean.ipynb`: Cleans and merges the tables to get the final file
+   - `merge.py`: Merges various datasets extracted for each year or feature (only if you stop with merging all the files using PySpark `final_all_df.write.csv('gs://6242filteringbucket/final_all.csv', header=True)` in the data_merge_and_clean.ipynb notebook; if you follow the notebook, this is not needed)
 
 2. **Tableau Dashboard:**
    - Interactive visualization of processed data
@@ -51,9 +52,8 @@ Data processing operations were performed using Python's PySpark and Pandas on t
 
 1.  Install Dolt by [building from source](https://docs.dolthub.com/introduction/installation/source).
 2.  Clone the FBI NIBRS data repository hosted on Dolthub [here](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs) using the command `dolt clone Liquidata/fbi-nibrs`. Please keep in mind that this is a 1.1TB database, so ensure you have sufficient storage space.
-3. Run the ___ script to get the necessary columns for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
-4. Merge the files by running [merge.py](https://github.com/abhaysastry1/cityscout/blob/main/merge.py) script.
-5. The merged_output.csv file was renamed and used in further analyses.
+3. Run the [data_merge_and_clean.ipynb](https://github.com/abhaysastry1/cityscout/blob/main/data_merge_and_clean.ipynb) script to get the necessary columns and merge the files to get the final output file for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
+4. The final2015_2021_merged.csv file was used in further analyses.
 
 Alternatively, please feel free to access the data used for our tool, which is linked under Data Source.
 
