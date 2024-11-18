@@ -60,7 +60,8 @@ Alternatively, please feel free to access the data used for our tool, which is l
 ## Machine Learning and Regression Analysis
 We employ Multiple Linear Regression (MLR) techniques to:
 - Filter out relevant offenses for each demographic category using machine learning.
-- Forecast crime rates for cities to provide more accurate safety suggestions.
+- Calculate risk scores based off of key features in the dataset(e.g. population, age_num, sex_code, race, resident_status_code, offense_name)
+   - Risk Score Calculation.ipynb is the notebook that should be run to calculate the final risk scores for each row in the dataset and create a csv containing this new info 
 [Placeholder for further details on ML files and reproduction steps]
 
 ## Limitations
