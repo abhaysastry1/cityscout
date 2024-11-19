@@ -76,6 +76,7 @@ To calculate the risk scores for the dataset:
 2. Run the [Risk_Score_Calculation.ipynb](https://github.com/abhaysastry1/cityscout/blob/main/Risk_Score_Calculation.ipynb) script to find the risk scores for each person in each city based on their demographic attributes
 3. Download the FinalCityDataRiskScores.csv file produced by the script
 
+<!--
 ## Limitations
 - The current dataset is static and does not include real-time updates.
 - Some states are not included in the dataset due to data availability constraints.
@@ -87,3 +88,4 @@ To calculate the risk scores for the dataset:
 - Expand demographic categories
 - Incorporate missing states
 - Develop mobile applications for on-the-go access
+-->
