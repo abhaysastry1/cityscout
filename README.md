@@ -41,8 +41,8 @@ The project consists of two main components:
    - `merge.py`: Merges various datasets extracted for each year or feature (only if you stop with merging all the files using PySpark `final_all_df.write.csv('gs://6242filteringbucket/final_all.csv', header=True)` in the data_merge_and_clean.ipynb notebook; if you follow the notebook, this is not needed)
 
 2. **Machine Learning Scripts:**
-   - `Risk_Score_Calcuation.ipynb`: Script that calculates all of the risk scores for each person and each city based on a person's demographic attributes
-   - `Offense_By_Categories.ipynb`: Script that finds the crimes most associated with victims that are of a specific demographic
+   - `Risk_Score_Calcuation.ipynb`: Script that uses the processed data calculates all of the risk scores for each person and each city based on a person's demographic attributes
+   - `Offense_By_Categories.ipynb`: Script that uses the processed data to find the crimes most associated with victims that are of a specific demographic
 3. **Tableau Dashboard:**
    - Interactive visualization of processed data
 
