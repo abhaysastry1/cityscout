@@ -72,7 +72,6 @@ To calculate the risk scores for the dataset:
 1. Download the [Merged Dataset Link](https://drive.google.com/file/d/1bwY2fyMjmfNOJpI-wdUImQXk9CvTFs9E/view) to your Google Drive
 2. Run the [Risk_Score_Calculation.ipynb](https://github.com/abhaysastry1/cityscout/blob/main/Risk_Score_Calculation.ipynb) script to find the risk scores for each person in each city based on their demographic attributes
 3. Download the FinalCityDataRiskScores.csv file produced by the script
-[Placeholder for further details on ML files and reproduction steps]
 
 ## Limitations
 - The current dataset is static and does not include real-time updates.
