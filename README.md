@@ -55,7 +55,7 @@ Data processing operations were performed using Python's PySpark and Pandas on t
 2.  Clone the FBI NIBRS data repository hosted on Dolthub [here](https://www.dolthub.com/repositories/Liquidata/fbi-nibrs) using the command `dolt clone Liquidata/fbi-nibrs`. Please keep in mind that this is a 1.1TB database, so ensure you have sufficient storage space.
 3.  Extract the relevant information for the tables using the commands present in the [doltSQLCommands.txt file](https://github.com/abhaysastry1/cityscout/blob/main/doltSQLCommands.txt).
 4. Run the [data_merge_and_clean.ipynb](https://github.com/abhaysastry1/cityscout/blob/main/data_merge_and_clean.ipynb) script to get the necessary columns and merge the files to get the final output file for further analysis. The script uses PySpark. Ensure the file path is correct when running the script.
-5. The final2015_2021_merged.csv file was used in further analyses.
+5. The final2017_2021_merged.csv file was used in further analyses.
 
 Alternatively, please feel free to access the data used for our tool, which is linked under Data Source.
 
@@ -63,7 +63,10 @@ Alternatively, please feel free to access the data used for our tool, which is l
 We employ Multiple Linear Regression (MLR) techniques to:
 - Filter out relevant offenses for each demographic category using machine learning.
 - Calculate risk scores based off of key features in the dataset(e.g. population, age_num, sex_code, race, resident_status_code, offense_name)
-   - Risk Score Calculation.ipynb is the notebook that should be run to calculate the final risk scores for each row in the dataset and create a csv containing this new info 
+To calculate the risk scores for the dataset:
+1. Download the [Merged Dataset Link](https://drive.google.com/file/d/1bwY2fyMjmfNOJpI-wdUImQXk9CvTFs9E/view) to your Google Drive
+2. Run the [Risk_Score_Calculation.ipynb] (https://github.com/abhaysastry1/cityscout/blob/main/Risk_Score_Calculation.ipynb) script to find the risk scores for each person in each city based on their demographic attributes
+3. Download the final Risk_Scores.csv file produced by the script
 [Placeholder for further details on ML files and reproduction steps]
 
 ## Limitations
