@@ -65,7 +65,7 @@ We employ TF-IDF and random forest to:
   To classify offenses into categories:
 1. Download the [Merged Dataset Link](https://drive.google.com/file/d/1bwY2fyMjmfNOJpI-wdUImQXk9CvTFs9E/view) to your Google Drive
 2. Run the [Offense By Categories.ipynb](https://github.com/abhaysastry1/cityscout/blob/main/Offense_By_Categories.ipynb) notebook to categorize  offenses into relevant categories.
-3. Download the offense_by_category.csv file produced by the script
+3. Download the offense_classifications_by_category.csv file produced by the script
 
 - Calculate risk scores based off of key features in the dataset(e.g. population, age_num, sex_code, race, resident_status_code, offense_name)
 To calculate the risk scores for the dataset:
