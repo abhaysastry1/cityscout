@@ -42,7 +42,7 @@ The project consists of two main components:
 
 2. **Machine Learning Scripts:**
    - `Risk_Score_Calcuation.ipynb`: Script that calculates all of the risk scores for each person and each city based on a person's demographic attributes
-   - [Offense info name]
+   - `Offense_By_Categories.ipynb`: Script that finds the crimes most associated with victims that are of a specific demographic
 3. **Tableau Dashboard:**
    - Interactive visualization of processed data
 
