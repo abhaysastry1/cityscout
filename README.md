@@ -32,7 +32,7 @@ Explore our interactive dashboard here: [CityScout Dashboard](https://public.tab
 
 ## Project Structure
 
-The project consists of two main components:
+The project consists of three main components:
 
 1. **Data Processing:**
    - `dolt_test.py`: Queries the database hosted on DoltHub (for reference)
@@ -40,7 +40,7 @@ The project consists of two main components:
    - `data_merge_and_clean.ipynb`: Cleans and merges the tables to get the final file
    - `merge.py`: Merges various datasets extracted for each year or feature (only if you stop with merging all the files using PySpark `final_all_df.write.csv('gs://6242filteringbucket/final_all.csv', header=True)` in the data_merge_and_clean.ipynb notebook; if you follow the notebook, this is not needed)
 
-2. **Machine Learning Scripts:**
+2. **Machine Learning:**
    - `Risk_Score_Calcuation.ipynb`: Script that uses the processed data calculates all of the risk scores for each person and each city based on a person's demographic attributes
    - `Offense_By_Categories.ipynb`: Script that uses the processed data to find the crimes most associated with victims that are of a specific demographic
 3. **Tableau Dashboard:**
